@@ -1,0 +1,52 @@
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  color: #fbbf24;
+  letter-spacing: 1px;
+}
+
+.value {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+}
+
+.reviews {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Size: sm (cards) */
+.sm {
+  gap: 0.4rem;
+}
+
+.sm .stars {
+  font-size: 0.8rem;
+}
+
+.sm .value {
+  font-size: 0.8rem;
+}
+
+.sm .reviews {
+  font-size: 0.75rem;
+}
+
+/* Size: lg (product page) */
+.lg {
+  gap: 0.5rem;
+}
+
+.lg .stars {
+  font-size: 0.95rem;
+}
+
+.lg .value {
+  font-size: 0.9rem;
+}
+
+.lg .reviews {
+  font-size: 0.82rem;
+}

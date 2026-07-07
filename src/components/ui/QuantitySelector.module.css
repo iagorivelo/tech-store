@@ -1,0 +1,73 @@
+.selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 4px 6px;
+}
+
+.btn {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.btn:hover:not(:disabled) {
+  background: rgba(167, 139, 250, 0.2);
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+.btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.value {
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+/* Size: sm (cart drawer) */
+.sm .btn {
+  width: 28px;
+  height: 28px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.sm .value {
+  font-size: 0.88rem;
+  min-width: 22px;
+}
+
+.sm {
+  gap: 0.4rem;
+  padding: 2px 4px;
+  border-radius: 10px;
+}
+
+/* Size: md (product page) */
+.md .btn {
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+}
+
+.md .value {
+  font-size: 1rem;
+  min-width: 28px;
+}
+
+.md {
+  gap: 0.75rem;
+  padding: 6px 8px;
+}
