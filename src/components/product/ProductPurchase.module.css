@@ -1,0 +1,11 @@
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* O botão ocupa o espaço restante ao lado do seletor de quantidade. */
+.addButton {
+  flex: 1;
+}
