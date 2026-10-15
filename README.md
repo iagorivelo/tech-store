@@ -11,7 +11,7 @@
 
 TechStore é uma vitrine de e-commerce pensada para ser **visualmente elegante** e, ao mesmo tempo, uma referência de **arquitetura moderna do App Router**: renderização no servidor, ilhas cliente mínimas, cache com invalidação por tag e carregamento incremental de produtos conforme o usuário rola a página.
 
-**Demo:** [tech-store-sigma-umber.vercel.app](https://tech-store-sigma-umber.vercel.app) · **No portfólio:** [iagorivelo.vercel.app/projects/tech-store](https://iagorivelo.vercel.app/projects/tech-store)
+**Demo:** [infostoretech.vercel.app](https://infostoretech.vercel.app) · **No portfólio:** [iagorivelo.vercel.app/projects/tech-store](https://iagorivelo.vercel.app/projects/tech-store)
 
 ---
 
