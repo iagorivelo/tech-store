@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { CartProvider } from "@/context/CartContext";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 import CartDrawer from "@/components/cart/CartDrawer";
 
 // Fonte self-hosted via next/font: sem request a fonts.googleapis.com e sem
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
         <CartProvider>
           <Header />
           <main>{children}</main>
+          <Footer />
           <CartDrawer />
         </CartProvider>
       </body>
